@@ -1,0 +1,81 @@
+body {
+     margin: 0;
+     padding: 0;
+     height: 100vh;
+     color: white;
+     font-family: 'Lato', sans-serif;
+}
+
+#container_main {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     margin: 0 auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 300px;
+     width: 80%;
+     background: white;
+}
+
+.column {
+     display: flex;
+     flex-direction: column;
+     height: 50%;
+     width: 33%;
+     padding: 30px 0;
+     background: #555557;
+}
+
+.nombre {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 60px;
+     height: 80%;
+}
+
+.container_chiffre {
+     
+}
+
+.span {
+     background: #292929;
+     padding: 0 5px;
+     border-radius: 8px;
+     line-height: 50px;
+}
+
+
+.text {
+     background: #555557;
+     text-align: center;
+     margin-bottom: 15px;
+     font-weight: 400;
+     font-size: 30px;
+}
+
+.input {
+     text-align: center;
+     margin-bottom: 15px;
+}
+
+/*============================= */
+#container_hours {
+     
+}
+/*============================= */
+
+/*============================= */
+#container_minutes {
+     
+}
+/*============================= */
+
+/*============================= */
+#container_seconds {
+     
+}
+/*============================= */
